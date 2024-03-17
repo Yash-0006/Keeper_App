@@ -1,12 +1,13 @@
 import React from "react";
 import HighlightIcon from '@mui/icons-material/Highlight';
+import "../styles.css";
 
 function Header() {
   return (
     <header>
       <h1>
       <HighlightIcon/>
-      Keeper</h1>
+      Listify</h1>
     </header>
   );
 }
